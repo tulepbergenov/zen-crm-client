@@ -11,6 +11,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^6.16.0
     version: 6.16.0(eslint@8.56.0)(typescript@5.3.3)
+  autoprefixer:
+    specifier: ^10.4.16
+    version: 10.4.16(postcss@8.4.32)
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -26,6 +29,9 @@ devDependencies:
   nuxt:
     specifier: ^3.9.0
     version: 3.9.0(eslint@8.56.0)(stylelint@16.1.0)(typescript@5.3.3)(vite@5.0.10)
+  postcss:
+    specifier: ^8.4.32
+    version: 8.4.32
   prettier:
     specifier: ^3.1.1
     version: 3.1.1
@@ -50,6 +56,9 @@ devDependencies:
   stylelint-order:
     specifier: ^6.0.4
     version: 6.0.4(stylelint@16.1.0)
+  tailwindcss:
+    specifier: ^3.4.0
+    version: 3.4.0
   vue:
     specifier: ^3.3.13
     version: 3.3.13(typescript@5.3.3)
