@@ -9,7 +9,17 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: "2rem",
+    },
+    extend: {
+      colors: {
+        "app-clr-light": "#F3F3F3",
+        "app-clr-dark": "#141414",
+        "app-clr-primary": "#ef4444",
+      },
+    },
   },
   plugins: [],
 };

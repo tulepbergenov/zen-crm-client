@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*::selection {
+  @apply bg-app-clr-primary text-white;
+}
+
+html {
+  @apply h-full scroll-smooth;
+
+  color-scheme: light;
+}
+
+body {
+  @apply rendering-speed bg-app-clr-light text-app-clr-dark h-full text-base font-normal antialiased;
+}
+
+body::-webkit-scrollbar {
+  @apply w-2;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-app-clr-primary rounded;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.rendering-speed {
+  text-rendering: optimizeSpeed;
+}
+
+#__nuxt {
+  @apply grid min-h-full grid-cols-[2fr_8fr] overflow-hidden;
+}
